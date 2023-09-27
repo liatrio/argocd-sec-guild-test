@@ -10,7 +10,7 @@ metadata:
       icon: docs
   annotations:
     backstage.io/techdocs-ref: dir:.
-
+    argocd/app-name: argocd-sec-guild-test
 spec:
   type: "service"
   # TODO: Figure out how to pull this from the values so that it
