@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "argocd-sec-guild-test"
+  title: "argocd-sec-guild-test"
+  description: "ArgoCD component"
+  links:
+    - url: https://nodejs.org/en
+      title: Official Node.js website
+      icon: docs
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+
+spec:
+  type: "service"
+  # TODO: Figure out how to pull this from the values so that it
+  # is dynamically set based on the user who is creating the component
+  owner: user:guest
+  lifecycle: experimental

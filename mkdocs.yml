@@ -1,0 +1,8 @@
+site_name: "argocd-sec-guild-test"
+site_description: "ArgoCD component"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
